@@ -16,3 +16,16 @@ How to attempt this challenge:
 4) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
 5) Push your solution to your repo
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
+
+## Solution
+1) git checkout add-echo
+2) git rebase master
+3) resolve conflicts(if coming)
+4) git checkout add-reverse
+5) git rebase master
+6) resolve conflicts(if coming)
+7) git checkout master
+8) git cherry-pick <commit-hash-from-add-echo>
+9) git cherry-pick <commit-hash-from-add-reverse>
+10) resolve conflicts(if coming)
+11) git log --oneline
