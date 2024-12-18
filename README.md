@@ -25,7 +25,7 @@ You must follow these steps for your solution to be accepted -- forks or other m
 5) git rebase master
 6) resolve conflicts(if coming)
 7) git checkout master
-8) git cherry-pick <commit-hash-from-add-echo>
-9) git cherry-pick <commit-hash-from-add-reverse>
+8) git cherry-pick `commit-hash-from-add-echo`
+9) git cherry-pick `commit-hash-from-add-reverse`
 10) resolve conflicts(if coming)
 11) git log --oneline
